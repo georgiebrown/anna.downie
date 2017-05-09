@@ -23,7 +23,7 @@ margin-top: 76px;
   align-items: center;
   margin-bottom: 10px;
 }
-
+/*
 .description{
   display: none
 }
@@ -34,4 +34,9 @@ margin-top: 76px;
 
 .notActive{
   display: none;
+}*/
+
+
+footer{
+  margin: 20px;
 }

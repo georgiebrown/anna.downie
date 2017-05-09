@@ -1,11 +1,11 @@
-$(document).ready(start);
-
-function start(){
-
-$('.video-container').hover(toggleClass);
-
-function toggleClass() {
-$(".description").toggleClass("active");
-
-};
-}
+// $(document).ready(start);
+//
+// function start(){
+//
+// $('h2').hover(toggleClass);
+//
+// function toggleClass() {
+// $(".description").addClass("active");
+//
+// };
+// }
