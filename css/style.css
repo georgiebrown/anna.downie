@@ -42,14 +42,22 @@ h2{
 
 
 .video {
-width: 65%;
+max-width: 700px;
 margin-top: 76px;
+display: flex;
+justify-content: flex-end;
+cursor: crosshair;
 
 }
+
+/*#festivus{
+  width: 75%;
+}*/
 
 .video-container{
   display: flex;
   justify-content: space-between;
+
 
 }
 
