@@ -9,7 +9,6 @@ body{
 }
 header{
   display: flex;
-  margin-top: 20px;
 
 }
 
@@ -36,6 +35,19 @@ h2{
   cursor: pointer;
 }
 
+.temple{
+
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
 .oats {
   text-align: left;
 }
@@ -59,6 +71,7 @@ margin-left: 10px;
   margin-top: 76px;
   display: flex;
   justify-content: space-between;
+  height:100vh;
 
 
 }
@@ -139,6 +152,10 @@ align-items: center;
 
   #oats{
     display:none;
+  }
+  
+  header{
+    flex-direction: column;
   }
 
 }

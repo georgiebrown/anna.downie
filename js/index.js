@@ -1,9 +1,10 @@
 $(document).ready(start);
 
 function start(){
-
+setupNav();
 $('h2').click(toggleClass);
 $('.name').click(toggleEmail);
+
 
 function toggleClass() {
 var wrapper = $(this).closest('.video-container')
@@ -30,5 +31,21 @@ function toggleEmail(){
         })
      });
 
+     function setupNav() {
+       var stickyNavTop = $('header').offset().top;
+
+       var stickyNav = function(){
+       var scrollTop = $(window).scrollTop();
+
+       if (scrollTop > stickyNavTop) {
+           $('header').addClass('sticky');
+       } else {
+           $('header').removeClass('sticky');
+       }
+     };
+       stickyNav();
+      $(window).scroll(function() {
+        stickyNav();
+      })};
 
 }
