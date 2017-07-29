@@ -153,9 +153,12 @@ align-items: center;
   #oats{
     display:none;
   }
-  
+
   header{
     flex-direction: column;
   }
+  .video-container {
+
+    height: 50vh;
 
 }
