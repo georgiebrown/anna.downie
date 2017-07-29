@@ -5,6 +5,7 @@ body{
 
 .container{
   padding:0;
+  max-width: 80%;
 }
 header{
   display: flex;
@@ -30,22 +31,23 @@ text-transform: uppercase;
 }
 
 h2{
-  margin-top: 90px;
   text-decoration: underline;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .oats {
-  text-align: right;
+  text-align: left;
 }
 
 
 .video {
 max-width: 700px;
+max-height: 468px;
 display: flex;
 justify-content: flex-end;
 cursor: crosshair;
+margin-left: 10px;
 
 }
 
@@ -125,9 +127,10 @@ align-items: center;
 
   h2{
     margin-top:50px;
+    text-align: center;
   }
   .oats {
-    text-align: center;
+    text-align: left;
   }
 
   #mobile-oats{
