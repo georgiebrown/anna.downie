@@ -43,7 +43,6 @@ h2{
 
 .video {
 max-width: 700px;
-margin-top: 76px;
 display: flex;
 justify-content: flex-end;
 cursor: crosshair;
@@ -55,6 +54,7 @@ cursor: crosshair;
 }*/
 
 .video-container{
+  margin-top: 76px;
   display: flex;
   justify-content: space-between;
 

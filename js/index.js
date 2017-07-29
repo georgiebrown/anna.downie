@@ -2,8 +2,8 @@ $(document).ready(start);
 
 function start(){
 
-$('h2').hover(toggleClass);
-$('.name').hover(toggleEmail);
+$('h2').click(toggleClass);
+$('.name').click(toggleEmail);
 
 function toggleClass() {
 var wrapper = $(this).closest('.video-container')
