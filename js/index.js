@@ -2,9 +2,9 @@ $(document).ready(start);
 
 function start(){
 setupNav();
+playVideo();
 $('h2').click(toggleClass);
 $('.name').click(toggleEmail);
-
 
 function toggleClass() {
 var wrapper = $(this).closest('.video-container')
@@ -19,10 +19,10 @@ function toggleEmail(){
   $('.hiddenEmail').toggleClass('active');
 }
 
-//getting video element using jQuery
+function playVideo() {
+  if ($(window).width() >= 479) {
      var v = $(".video");
 
-  //check if video is ready to play
      $(v).on('canplay', function(){
         $(v).mouseenter(function(){
            $(this).get(0).play();
@@ -30,6 +30,8 @@ function toggleEmail(){
            $(this).get(0).pause();
         })
      });
+}
+   }
 
      function setupNav() {
        var stickyNavTop = $('header').offset().top;
