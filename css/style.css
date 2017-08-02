@@ -112,9 +112,6 @@ footer{
   flex-direction: column;
 }
 
-#mobile-oats{
-  display:none;
-}
 
 /*@media screen and (max-width: 992px) and (min-width: 200px){*/
 
@@ -146,19 +143,10 @@ align-items: center;
     text-align: left;
   }
 
-  #mobile-oats{
-    display: block;
-  }
-
-  #oats{
-    display:none;
-  }
-
   header{
     flex-direction: column;
   }
   .video-container {
-
     height: 50vh;
 
 }
