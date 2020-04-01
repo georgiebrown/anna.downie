@@ -44,6 +44,7 @@ a:hover{
 }
 
 .misconception{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -57,6 +58,7 @@ opacity: 1;
 }
 
 .reasons{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -70,6 +72,7 @@ opacity: 1;
 }
 
 .fold{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -83,6 +86,7 @@ opacity: 1;
 }
 
 .skin{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -96,6 +100,7 @@ opacity: 1;
 }
 
 .nique{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -109,6 +114,7 @@ opacity: 1;
 }
 
 .temple{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -122,6 +128,7 @@ opacity: 1;
 }
 
 .saiah{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -135,6 +142,7 @@ opacity: 1;
 }
 
 .tobeafraid{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -147,6 +155,7 @@ opacity: 1;
 opacity: 1;
 }
 .saatsuma{
+  padding: 20px;
   z-index: 1;
   opacity: 0;
   position: absolute;
@@ -183,8 +192,6 @@ header{
 
 }
 
-
-
 .name {
   cursor: pointer;
 }
@@ -208,9 +215,6 @@ h2{
 
 }
 
-.temple{
-
-}
 
 .sticky {
   position: fixed;
@@ -221,24 +225,12 @@ h2{
   border-top: 0;
 }
 
-.oats {
-  text-align: left;
-}
-
-
-.video {
-
-}
-
-
 
 .video-container{
   margin-top: 76px;
   display: flex;
   justify-content: space-between;
   height:100vh;
-
-
 }
 
 .description{
@@ -288,7 +280,7 @@ footer{
 
   @media screen and (max-width: 992px){
     .container {
-    width: 100%;
+    width: 95%;
 }
     .video-container{
       display: flex;
