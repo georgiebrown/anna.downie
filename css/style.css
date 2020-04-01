@@ -3,14 +3,187 @@ body{
   font-size: 20px;
 }
 
+a {
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: orange;
+}
+
+
 .container{
   padding:0;
-  max-width: 80%;
+  max-width: 100%;
 }
-header{
+
+.row {
   display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 2px;
+}
+
+.column img {
+  margin-top: 2px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column.text{
+  margin-top: 2px;
+  vertical-align: middle;
+  width: 100%;
 
 }
+
+.misconception{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.misconception:hover{
+opacity: 1;
+}
+
+.reasons{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.reasons:hover{
+opacity: 1;
+}
+
+.fold{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.fold:hover{
+opacity: 1;
+}
+
+.skin{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.skin:hover{
+opacity: 1;
+}
+
+.nique{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.nique:hover{
+opacity: 1;
+}
+
+.temple{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.temple:hover{
+opacity: 1;
+}
+
+.saiah{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.saiah:hover{
+opacity: 1;
+}
+
+.tobeafraid{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.tobeafraid:hover{
+opacity: 1;
+}
+.saatsuma{
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.saatsuma:hover{
+opacity: 1;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
 
 .name {
   cursor: pointer;
@@ -32,7 +205,7 @@ text-transform: uppercase;
 h2{
   text-decoration: underline;
   text-transform: uppercase;
-  cursor: pointer;
+
 }
 
 .temple{
@@ -54,18 +227,10 @@ h2{
 
 
 .video {
-max-width: 700px;
-max-height: 468px;
-display: flex;
-justify-content: flex-end;
-cursor: crosshair;
-margin-left: 10px;
 
 }
 
-/*#festivus{
-  width: 75%;
-}*/
+
 
 .video-container{
   margin-top: 76px;
@@ -106,6 +271,7 @@ footer{
   margin: 20px;
   display: flex;
   justify-content: center;
+  height: 100px;
 }
 .fa-envelope-O:hover {
   cursor: pointer;
